@@ -2,6 +2,15 @@
 个人最喜欢的编程字体, 放到GitHub上方便以后自己下载, 使用.
 
 ## 安装
+
+linux 下可以直接执行 
+```
+ sh install.sh
+ ```
+安装
+ 
+或则手动：
+ 
 + 下载这个字体.
 ```
 git clone https://github.com/iyannik0215/YaHei-Consolas-Hybrid-1.12
