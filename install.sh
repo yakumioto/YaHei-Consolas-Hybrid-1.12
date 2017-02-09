@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12.git
 
