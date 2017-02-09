@@ -1,10 +1,16 @@
 # YaHei Consolas Hybrid 1.12
 个人最喜欢的编程字体, 放到GitHub上方便以后自己下载, 使用.
 
+## 一键安装
+
+```
+wget -qO- https://raw.githubusercontent.com/yakumioto/YaHei-Consolas-Hybrid-1.12/master/install.sh | sudo sh
+```
+
 ## 安装
 + 下载这个字体.
 ```
-git clone https://github.com/iyannik0215/YaHei-Consolas-Hybrid-1.12
+git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 ```
 + 在/usr/share/fonts/truetype/, 下建立一个新的目录 YaHei\ Consolas\ Hybrid
 ```
@@ -28,4 +34,4 @@ sudo mkfontdir
 sudo fc-cache -fv
 # 建立字体缓存信息，也就是让系统认识该字体
 ```
-之后就可以在 IDE中使用该字体了. 
+之后就可以在 IDE中使用该字体了.
