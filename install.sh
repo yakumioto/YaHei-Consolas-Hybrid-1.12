@@ -1,10 +1,5 @@
 #!/bin/sh
 
-user=`whoami`
-if [ "$user" != "root" ]; then
-        echo "You Password" | su root
-fi
-
 git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12.git /tmp
 
 echo 'Truetype folder Creating...'
