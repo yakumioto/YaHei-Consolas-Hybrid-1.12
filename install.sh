@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12.git /tmp
+git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12.git /tmp/YaHei-Consolas-Hybrid-1.12
 
 echo 'Truetype folder Creating...'
 echo 'path:/usr/share/fonts/truetype/YaHei\ Consolas\ Hybrid'
@@ -20,5 +20,9 @@ echo 'installing YaHei Consolas Hybrid font...'
 mkfontscale
 mkfontdir
 fc-cache -fv
+
+echo 'Cleanning...'
+
+rm -rf /tmp/YaHei-Consolas-Hybrid-1.12
 
 echo 'Complete!'
