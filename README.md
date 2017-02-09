@@ -4,7 +4,7 @@
 ## 一键安装
 
 ```
-wget -qO- https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/blob/master/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/yakumioto/YaHei-Consolas-Hybrid-1.12/master/install.sh | bash
 ```
 
 ## 安装
