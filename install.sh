@@ -1,6 +1,12 @@
 #!/bin/sh
 
-
+if [ ! -f /usr/bin/wget ]; then
+        echo "please install wget"
+        exit 0
+elif [ $UID -ne 0 ]; then
+        echo "You need to use root."
+        exit 0
+else
 
 wget -P /tmp/ https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/blob/master/YaHei%20Consolas%20Hybrid%201.12.ttf
 
@@ -22,3 +28,5 @@ echo 'installing YaHei Consolas Hybrid font...'
 fc-cache -fv
 
 echo 'Complete!'
+
+fi
