@@ -8,7 +8,7 @@ elif [ $UID -ne 0 ]; then
         exit 0
 else
 
-wget -P /tmp/ https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/blob/master/YaHei%20Consolas%20Hybrid%201.12.ttf
+wget -P /tmp/ https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/raw/master/YaHei%20Consolas%20Hybrid%201.12.ttf
 
 echo 'Truetype folder Creating...'
 echo 'path:/usr/share/fonts/truetype/YaHei\ Consolas\ Hybrid'
