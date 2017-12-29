@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ ! -f /usr/bin/wget ]; then
+if [ ! $(command -v wget) ]; then
         echo "please install wget"
         exit 0
 elif [ $UID -ne 0 ]; then
