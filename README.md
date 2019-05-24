@@ -1,5 +1,7 @@
 # YaHei Consolas Hybrid 1.12
 
+a font for developers that correctly displays Asian characters when mixed with Latin
+
 个人最喜欢的编程字体, 放到GitHub上方便以后自己下载, 使用.
 
 [注]: 我不是 `YaHei Consolas Hybrid` 的作者,只是单纯的使用者. 所以改字体里面的缺陷我是不会的..
