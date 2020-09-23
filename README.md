@@ -13,6 +13,8 @@ wget -qO- https://raw.githubusercontent.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 ```
 
 ## 安装
+
+### linux
 + 下载这个字体.
 ```
 git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
@@ -40,3 +42,16 @@ sudo fc-cache -fv
 # 建立字体缓存信息，也就是让系统认识该字体
 ```
 之后就可以在 IDE中使用该字体了.
+
+### windows
+
+#### 安装到本机
+- 下载项目中的ttf文件到本地
+- 下载完成后双击打开点击安装即可
+
+#### idea使用
+
+将ttf文件copy到下面所列出的目录，然后再在setting里面选择：`Yahei Consolas Hybrid`
+
+ - 2019 ：IntelliJ IDEA 2019.1\jre64\lib\fonts
+ - 2020 ：IntelliJ IDEA 2020.2.1\jbr\lib\fonts
