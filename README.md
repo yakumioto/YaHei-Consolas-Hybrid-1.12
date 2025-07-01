@@ -40,5 +40,3 @@ sudo fc-cache -fv
 # 建立字体缓存信息，也就是让系统认识该字体
 ```
 之后就可以在 IDE中使用该字体了.
-
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
